@@ -12,10 +12,8 @@ spec:
       labels:
         app: my-app
     spec:
-      imagePullSecrets:
-        - name: docker-secret
       containers:
         - name: my-app
-          image: githubactionregistory.azurecr.io/angularurl:159
+          image: danielpraveenkumar/aidevsecops:latest
           ports:
             - containerPort: 80  # Adjust the container port as needed
