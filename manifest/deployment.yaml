@@ -16,4 +16,4 @@ spec:
         - name: java-app
           image: hamritha817/devsecops:78
           ports:
-            - containerPort: 8080  # Adjust the container port as needed
+            - containerPort: 8083  # Adjust the container port as needed
