@@ -16,4 +16,4 @@ spec:
         - name: my-app
           image: hamritha817/devsecops:76
           ports:
-            - containerPort: 80  # Adjust the container port as needed
+            - containerPort: 8080  # Adjust the container port as needed
