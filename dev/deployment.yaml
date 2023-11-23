@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: java-app
-          image: hamritha817/devsecops:16
+          image: hamritha817/devsecops:17
           ports:
             - containerPort: 8083  # Adjust the container port as needed
