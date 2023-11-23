@@ -1,19 +1,19 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: java-app
+  name: java-app-master
 spec:
   replicas: 1  # Adjust the number of replicas as needed
   selector:
     matchLabels:
-      app: java-app
+      app: java-app-master
   template:
     metadata:
       labels:
-        app: java-app
+        app: java-app-master
     spec:
       containers:
-        - name: java-app
+        - name: java-app-master
           image: hamritha817/devsecops:14
           ports:
             - containerPort: 8083  # Adjust the container port as needed
