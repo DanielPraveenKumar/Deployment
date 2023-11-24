@@ -1,16 +1,16 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: java-app
+  name: java-app-dev
 spec:
   replicas: 1  # Adjust the number of replicas as needed
   selector:
     matchLabels:
-      app: java-app
+      app: java-app-dev
   template:
     metadata:
       labels:
-        app: java-app
+        app: java-app-dev
     spec:
       containers:
         - name: java-app
